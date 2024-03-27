@@ -2,11 +2,15 @@
 
 namespace App\Service\Serializer;
 
+use Doctrine\Common\Annotations\AnnotationReader;
 use Symfony\Component\Serializer\Encoder\JsonEncoder;
+use Symfony\Component\Serializer\Mapping\Factory\ClassMetadataFactory;
 use Symfony\Component\Serializer\NameConverter\CamelCaseToSnakeCaseNameConverter;
 use Symfony\Component\Serializer\Normalizer\ObjectNormalizer;
 use Symfony\Component\Serializer\Serializer;
 use Symfony\Component\Serializer\SerializerInterface;
+use Symfony\Component\Serializer\Mapping\Loader\AnnotationLoader;
+
 
 class DTOSerializer implements SerializerInterface
 {
@@ -17,7 +21,10 @@ class DTOSerializer implements SerializerInterface
     {
         $this->serializer = new Serializer(
             // normalizers
-        [new ObjectNormalizer(nameConverter: new CamelCaseToSnakeCaseNameConverter())],
+        [new ObjectNormalizer(
+            classMetadataFactory: new ClassMetadataFactory(new AnnotationLoader(new AnnotationReader())),
+            nameConverter: new CamelCaseToSnakeCaseNameConverter()
+        )],
             // encoders
         [new JsonEncoder()]
         );
