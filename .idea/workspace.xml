@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d7f1fa2-0e44-4241-903f-03870b3843e1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/compose.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/ProductsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ProductsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,6 +116,7 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-migrations-bundle" />
       <path value="$PROJECT_DIR$/vendor/doctrine/persistence" />
       <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/predis/predis" />
     </include_path>
   </component>
   <component name="ProblemsViewState">
@@ -177,7 +175,7 @@
       <workItem from="1711630172664" duration="9711000" />
       <workItem from="1711647927277" duration="30000" />
       <workItem from="1711647967692" duration="440000" />
-      <workItem from="1711648519106" duration="1015000" />
+      <workItem from="1711648519106" duration="1321000" />
     </task>
     <servers />
   </component>

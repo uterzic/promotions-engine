@@ -103,6 +103,7 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-migrations-bundle" />
       <path value="$PROJECT_DIR$/vendor/doctrine/persistence" />
       <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/predis/predis" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.2" />
