@@ -40,7 +40,7 @@ class ProductsController extends AbstractController
         $promotions = $this->entityManager->getRepository(Promotion::class)->findValidForProduct(
             $product,
             date_create_immutable($lowestPriceEnquiry->getRequestDate()),
-        );
+        ); // null
 
         $modifiedEnquiry = $promotionsFilter->apply($lowestPriceEnquiry, ...$promotions);
 

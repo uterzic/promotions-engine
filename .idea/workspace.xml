@@ -5,7 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d7f1fa2-0e44-4241-903f-03870b3843e1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/commandlinetools/Symfony_3_27_24__3_30_PM.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/commandlinetools/schemas/frameworkDescriptionVersion1.1.4.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/symfony2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.phpunit.result.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/ServiceTestCase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/LowestPriceFilterTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ProductsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ProductsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DTO/LowestPriceEnquiry.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DTO/LowestPriceEnquiry.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DTO/PromotionEnquiryInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DTO/PromotionEnquiryInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Filter/LowestPriceFilter.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Filter/LowestPriceFilter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Filter/PromotionsFilterInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Filter/PromotionsFilterInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/Serializer/DTOSerializer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/Serializer/DTOSerializer.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +34,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/usr/local/Cellar/php/8.2.12/bin/php">
     <include_path>
@@ -125,25 +144,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/mrdeveloper/Desktop/Projects/promotions-engine",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "php.override.implement.member.chooser.php.doc": "NONE",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/mrdeveloper/Desktop/Projects/promotions-engine&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;php.override.implement.member.chooser.php.doc&quot;: &quot;NONE&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner configuration_file="$PROJECT_DIR$/phpunit.xml.dist" scope="XML" use_alternative_configuration_file="true" />
@@ -162,6 +181,9 @@
       <workItem from="1711452294021" duration="5393000" />
       <workItem from="1711477062951" duration="2927000" />
       <workItem from="1711545674947" duration="2603000" />
+      <workItem from="1711549662126" duration="174000" />
+      <workItem from="1711549843275" duration="5372000" />
+      <workItem from="1711630172664" duration="7742000" />
     </task>
     <servers />
   </component>
