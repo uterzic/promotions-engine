@@ -11,6 +11,7 @@ use App\Service\Serializer\DTOSerializer;
 use Doctrine\ORM\EntityManagerInterface;
 use Psr\Cache\InvalidArgumentException;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+use Symfony\Component\BrowserKit\Exception\JsonException;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
@@ -30,19 +31,13 @@ class ProductsController extends AbstractController
     #[Route('/products/{id}/lowest-price', name: 'lowest-price', methods: 'POST')]
     public function lowestPrice(Request $request, int $id, DTOSerializer $serializer, PromotionsFilterInterface $promotionsFilter, PromotionCache $promotionCache): Response
     {
-        if ($request->headers->has('force_fail')) {
-
-            return new JsonResponse(
-                ['error' => 'Promotions Engine failure message'],
-                $request->headers->get('force_fail')
-            );
-        }
+        throw new JsonException('Your JSON sucks!');
 
         $lowestPriceEnquiry = $serializer->deserialize(
             $request->getContent(), LowestPriceEnquiry::class, 'json'
         );
 
-        $product = $this->repository->find($id);
+        $product = $this->repository->findOrFail($id);
 
         $lowestPriceEnquiry->setProduct($product);
 

@@ -5,15 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d7f1fa2-0e44-4241-903f-03870b3843e1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/symfony2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/symfony2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.phpunit.result.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.phpunit.result.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DTO/LowestPriceEnquiry.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DTO/LowestPriceEnquiry.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Service/Serializer/DTOSerializer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/Serializer/DTOSerializer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ProductsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ProductsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EvenSubscriber/DtoSubscriber.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/EvenSubscriber/DtoSubscriber.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EventListener/ExceptionListener.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/EventListener/ExceptionListener.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/ProductRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/ProductRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/ServiceException.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/ServiceException.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +155,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "php.override.implement.member.chooser.php.doc": "NONE",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -186,7 +184,7 @@
       <workItem from="1711647967692" duration="440000" />
       <workItem from="1711648519106" duration="1625000" />
       <workItem from="1711716097859" duration="104000" />
-      <workItem from="1711712918691" duration="3583000" />
+      <workItem from="1711712918691" duration="6455000" />
     </task>
     <servers />
   </component>
